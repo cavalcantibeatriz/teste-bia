@@ -1,0 +1,18 @@
+1
+memória não-volátil da Unidade de Comando Eletrônico (UCE) do sistema de injeção. Tambem conhecida como memoria ...(4 letras)
+2
+é um tipo de memória que permite apenas a leitura, ou seja, as suas informações são gravadas pelo fabricante uma única vez e 
+após isso não podem ser alteradas ou apagadas, somente acessadas. memoria ...(3 letras)
+3
+tem como função armazenar grandes quantidades de informações. Os dados armazenados nas memórias de massa não são perdidos quando 
+desligamos o equipamento, ao contrário da memória ram. memoria ... (14 letras)
+4
+linhas de instruções que o processador deverá realizar, tambem conhecida como tarefas
+
+
+
+
+
+
+
+é o componente de hardware responsável por processar dados e transformar em informação. O processador, também chamado de ...(3 letras)

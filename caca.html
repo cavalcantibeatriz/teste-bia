@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Caça palavras</title>
     <link rel="stylesheet" href="caca.css">
 </head>
 
 <body>
+    <button onclick="teste()">aaaaaaaaaa</button>
     <section>
         <div class="coluna">
             <div class="celula1"><input type="text" id="pE1" placeholder="E" onchange="e1()"></div>
@@ -291,7 +292,7 @@
             <div class="celula1"><input type="text" id="pA12" placeholder="A" onchange="a12()"></div>
             <div class="celula1"><input type="text" id="pT3" placeholder="T" onchange="t3()"></div>
             <div class="celula1"><input type="text" id="pA13" placeholder="A" onchange="a13()"></div>
-            <div class="celula1">-</div> 
+            <div class="celula1">-</div>
             <div class="celula1"><input type="text" id="pB2" placeholder="B" onchange="b2()"></div>
             <div class="celula1"><input type="text" id="pU6" placeholder="U" onchange="u6()"></div>
             <div class="celula1"><input type="text" id="pS7" placeholder="S" onchange="s7()"></div>
@@ -399,11 +400,48 @@
     </section>
     <div class="sla">
 
-        <a href="">
-            <div>sdfghjk,
-            </div>
-        </a>
+        <div id="quest">
 
+            <ol>
+                <br>
+                <li class="palavra1"> Memória não-volátil da Unidade de Comando Eletrônico (UCE) do sistema de injeção. Tambem conhecida como memoria_________</li> 
+                <br>
+                <li>É um tipo de memória que permite apenas a leitura, as suas informações são gravadas pelo fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas. memoria________</li>
+                <br>
+                <li>Armazena grandes informações, os dados armazenados nas ________ não são perdidos quando 
+                    desligamos o equipamento.</li>
+                <br>
+                <li>Linhas de instruções que o processador deverá realizar, tambem conhecida como tarefas________ 
+                </li>
+                <br>
+                <li>a</li>
+                <br>
+                <li>b</li>
+                <br>
+                <li>c</li>
+                <br>
+                <li>d</li>
+                <br>
+                <li>e</li>
+                <br>
+                <li>f</li>
+                <br>
+                <li>g</li>
+                <br>
+                <li>h</li>
+                <br>
+                <li>i</li>
+                <br>
+                <li>j</li>
+                <br>
+                <li>k</li>
+                <br>
+                <li>l</li>
+                <br>
+                <li>m</li>
+                <br> 
+            </ol>
+        </div>
     </div>
 </body>
 
@@ -1123,4 +1161,33 @@
             pE9.style.background = '    red';
         }
     }
+</script>
+<script>
+    function teste() {
+
+
+        if ((pE1.value == 'E' || pE1.value == 'e')&& (pP1.value == 'P' || pP1.value == 'p') && (pR1.value == 'R' || pR1.value == 'r') && (pO2.value == 'O' || pO2.value == 'o') && (pM2.value == 'M' || pM2.value == 'm')) {
+            pA10.style.background = 'red';
+            
+            li.style.border = 'red 3px solid';
+            palavra1.style.font = 'oblique';  
+        }else{
+            alert(`ERROOOO`)
+        }
+
+
+        // if ((pR1.value == 'R' || pR1.value == 'r')&& (pO1.value == 'O' || pO1.value == 'o')&& (pM.value == 'M' || pM.value == 'm')) {
+        //     palavra2.style.fontstyle = 'oblique'; 
+            
+        // }
+
+
+
+        
+    }
+
+
+
+
+
 </script>
