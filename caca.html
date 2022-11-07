@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <button onclick="teste()">aaaaaaaaaa</button>
+
     <section>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pE1" placeholder="E" onchange="e1()"></div>
+            <div class="celula1"><input type="text" id="pE1" placeholder="E" onchange="e1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -31,7 +31,7 @@
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pP1" placeholder="p" onchange="p1()"></div>
+            <div class="celula1"><input type="text" id="pP1" placeholder="p" onchange="p1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -45,98 +45,81 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pF1" placeholder="F" onchange="f1()"></div>
+            <div class="celula1"><input type="text" id="pF1" placeholder="F" onchange="f1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
         </div>
+
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pR1" placeholder="R" onchange="r1()"></div>
-            <div class="celula1"><input type="text" id="pO1" placeholder="O" onchange="o1()"></div>
-            <div class="celula1"><input type="text" id="pM" placeholder="M" onchange="m1()"></div>
+            <div class="celula1"><input type="text" id="pR1" placeholder="R" onchange="r1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pO1" placeholder="O" onchange="o1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pM1" placeholder="M" onchange="m1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pT1" placeholder="T" onchange="t1()"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pT1" placeholder="T" onchange="t1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pR2" placeholder="R" onchange="r2()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pU1" placeholder="U" onchange="u1()"></div>
-            <div class="celula1"><input type="text" id="pL1" placeholder="L" onchange="l1()"></div>
-            <div class="celula1"><input type="text" id="pA1" placeholder="A" onchange="a1()"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pR2" placeholder="R" onchange="r2()" onkeyup="Txt1()"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pU1" placeholder="U" onchange="u1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pL1" placeholder="L" onchange="l1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA1" placeholder="A" onchange="a1()" onkeyup="Txt1()"></div>
 
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pO2" placeholder="O" onchange="o2()"></div>
+            <div class="celula1"><input type="text" id="pO2" placeholder="O" onchange="o2()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pH" placeholder="H" onchange="h1()"></div>
+            <div class="celula1"><input type="text" id="pH" placeholder="H" onchange="h1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pR3" placeholder="R" onchange="r3()"></div>
+            <div class="celula1"><input type="text" id="pR3" placeholder="R" onchange="r3()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pA2" placeholder="A" onchange="a2()"></div>
+            <div class="celula1"><input type="text" id="pA2" placeholder="A" onchange="a2()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pA3" placeholder="A" onchange="a3()"></div>
+            <div class="celula1"><input type="text" id="pA3" placeholder="A" onchange="a3()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pM2" placeholder="M" onchange="m2()"></div>
-            <div class="celula1"><input type="text" id="pE2" placeholder="E" onchange="e2()"></div>
-            <div class="celula1"><input type="text" id="pM3" placeholder="M" onchange="m3()"></div>
-            <div class="celula1"><input type="text" id="pO3" placeholder="O" onchange="o3()"></div>
-            <div class="celula1"><input type="text" id="pR4" placeholder="R" onchange="r4()"></div>
-            <div class="celula1"><input type="text" id="pI" placeholder="I" onchange="i1()"></div>
-            <div class="celula1"><input type="text" id="pA4" placeholder="A" onchange="a4()"></div>
+            <div class="celula1"><input type="text" id="pM2" placeholder="M" onchange="m2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pE2" placeholder="E" onchange="e2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pM3" placeholder="M" onchange="m3()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pO3" placeholder="O" onchange="o3()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pR4" placeholder="R" onchange="r4()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pI" placeholder="I" onchange="i1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA4" placeholder="A" onchange="a4()" onkeyup="Txt1()"></div>
             <div class="celula1">-</div>
-            <div class="celula1"><input type="text" id="pD1" placeholder="D" onchange="d1()"></div>
-            <div class="celula1"><input type="text" id="pE3" placeholder="E" onchange="e3()"></div>
+            <div class="celula1"><input type="text" id="pD1" placeholder="D" onchange="d1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pE3" placeholder="E" onchange="e3()" onkeyup="Txt1()"></div>
             <div class="celula1">-</div>
-            <div class="celula1"><input type="text" id="pM4" placeholder="M" onchange="m4()"></div>
-            <div class="celula1"><input type="text" id="pA5" placeholder="A" onchange="a5()"></div>
-            <div class="celula1"><input type="text" id="pS1" placeholder="S" onchange="s1()"></div>
-            <div class="celula1"><input type="text" id="pS2" placeholder="S" onchange="s2()"></div>
-            <div class="celula1"><input type="text" id="pA6" placeholder="A" onchange="a6()"></div>
+            <div class="celula1"><input type="text" id="pM4" placeholder="M" onchange="m4()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA5" placeholder="A" onchange="a5()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pS1" placeholder="S" onchange="s1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pS2" placeholder="S" onchange="s2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA6" placeholder="A" onchange="a6()" onkeyup="Txt1()"></div>
         </div>
         <div class="coluna">
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pE4" placeholder="E" onchange="e4()"></div>
-            <div class="celula1"><input type="text" id="p5" placeholder="5" onchange="n5()"></div>
+            <div class="celula1"><input type="text" id="pE4" placeholder="E" onchange="e4()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="p5" placeholder="5" onchange="n5()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pG" placeholder="G" onchange="g1()"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pH2" placeholder="H" onchange="h2()"></div>
-            <div class="celula"></div>
-        </div>
-        <div class="coluna">
+            <div class="celula1"><input type="text" id="pG" placeholder="G" onchange="g1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pA7" placeholder="A" onchange="a7()"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pI2" placeholder="I" onchange="i2()"></div>
-            <div class="celula1"><input type="text" id="p7" placeholder="7" onchange="n7()"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pH2" placeholder="H" onchange="h2()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
         </div>
         <div class="coluna">
@@ -144,13 +127,13 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pD2" placeholder="D" onchange="d2()"></div>
-            <div class="celula1"><input type="text" id="pM5" placeholder="M" onchange="m5()"></div>
-            <div class="celula1"><input type="text" id="pA8" placeholder="A" onchange="a8()"></div>
+            <div class="celula1"><input type="text" id="pA7" placeholder="A" onchange="a7()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pS3" placeholder="S" onchange="s3()"></div>
             <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pI2" placeholder="I" onchange="i2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="p7" placeholder="7" onchange="n7()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -161,13 +144,13 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pC1" placeholder="C" onchange="c1()"></div>
-            <div class="celula1"><input type="text" id="pS4" placeholder="S" onchange="s4()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pD3" placeholder="D" onchange="d3()"></div>
+            <div class="celula1"><input type="text" id="pD2" placeholder="D" onchange="d2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pM5" placeholder="M" onchange="m5()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA8" placeholder="A" onchange="a8()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pT2" placeholder="T" onchange="t2()"></div>
+            <div class="celula1"><input type="text" id="pS3" placeholder="S" onchange="s3()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -179,13 +162,13 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pP2" placeholder="p" onchange="p2()"></div>
+            <div class="celula1"><input type="text" id="pC1" placeholder="C" onchange="c1()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pS4" placeholder="S" onchange="s4()" onkeyup="Txt1()"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pD3" placeholder="D" onchange="d3()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pR5" placeholder="R" onchange="r5()"></div>
-            <div class="celula"></div>
-            <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pR6" placeholder="R" onchange="r6()"></div>
+            <div class="celula1"><input type="text" id="pT2" placeholder="T" onchange="t2()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -197,16 +180,34 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pU2" placeholder="U" onchange="u2()"></div>
+            <div class="celula1"><input type="text" id="pP2" placeholder="p" onchange="p2()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pE5" placeholder="E" onchange="e5()"></div>
+            <div class="celula1"><input type="text" id="pR5" placeholder="R" onchange="r5()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pC2" placeholder="C" onchange="c2()"></div>
-            <div class="celula1"><input type="text" id="pA9" placeholder="A" onchange="a9()"></div>
-            <div class="celula1"><input type="text" id="pC3" placeholder="C" onchange="c3()"></div>
-            <div class="celula1"><input type="text" id="pH3" placeholder="H" onchange="h3()"></div>
-            <div class="celula1"><input type="text" id="pE6" placeholder="E" onchange="e6()"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pR6" placeholder="R" onchange="r6()" onkeyup="Txt1()"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+        </div>
+        <div class="coluna">
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pU2" placeholder="U" onchange="u2()" onkeyup="Txt1()"></div>
+            <div class="celula"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pE5" placeholder="E" onchange="e5()" onkeyup="Txt1()"></div>
+            <div class="celula"></div>
+            <div class="celula1"><input type="text" id="pC2" placeholder="C" onchange="c2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA9" placeholder="A" onchange="a9()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pC3" placeholder="C" onchange="c3()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pH3" placeholder="H" onchange="h3()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pE6" placeholder="E" onchange="e6()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -219,10 +220,10 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pS5" placeholder="S" onchange="s5()"></div>
+            <div class="celula1"><input type="text" id="pS5" placeholder="S" onchange="s5()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pD4" placeholder="D" onchange="d4()"></div>
+            <div class="celula1"><input type="text" id="pD4" placeholder="D" onchange="d4()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -232,16 +233,16 @@
 
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pQ" placeholder="Q" onchange="q1()"></div>
+            <div class="celula1"><input type="text" id="pQ" placeholder="Q" onchange="q1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pS6" placeholder="S" onchange="s6()"></div>
+            <div class="celula1"><input type="text" id="pS6" placeholder="S" onchange="s6()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pO4" placeholder="O" onchange="o4()"></div>
+            <div class="celula1"><input type="text" id="pO4" placeholder="O" onchange="o4()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -250,17 +251,17 @@
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pU3" placeholder="U" onchange="u3()"></div>
+            <div class="celula1"><input type="text" id="pU3" placeholder="U" onchange="u3()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pD5" placeholder="D" onchange="d5()"></div>
-            <div class="celula1"><input type="text" id="pU5" placeholder="U" onchange="u5()"></div>
-            <div class="celula1"><input type="text" id="pA10" placeholder="A" onchange="a10()"></div>
-            <div class="celula1"><input type="text" id="pL2" placeholder="L" onchange="l2()"></div>
+            <div class="celula1"><input type="text" id="pD5" placeholder="D" onchange="d5()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pU5" placeholder="U" onchange="u5()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA10" placeholder="A" onchange="a10()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pL2" placeholder="L" onchange="l2()" onkeyup="Txt1()"></div>
             <div class="celula1">-</div>
-            <div class="celula1"><input type="text" id="pC4" placeholder="C" onchange="c4()"></div>
-            <div class="celula1"><input type="text" id="pO5" placeholder="O" onchange="o5()"></div>
-            <div class="celula1"><input type="text" id="pR7" placeholder="R" onchange="r7()"></div>
-            <div class="celula1"><input type="text" id="pE7" placeholder="E" onchange="e7()"></div>
+            <div class="celula1"><input type="text" id="pC4" placeholder="C" onchange="c4()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pO5" placeholder="O" onchange="o5()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pR7" placeholder="R" onchange="r7()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pE7" placeholder="E" onchange="e7()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -269,16 +270,16 @@
 
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pA11" placeholder="A" onchange="a11()"></div>
+            <div class="celula1"><input type="text" id="pA11" placeholder="A" onchange="a11()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pB1" placeholder="B" onchange="b1()"></div>
+            <div class="celula1"><input type="text" id="pB1" placeholder="B" onchange="b1()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pE8" placeholder="E" onchange="e8()"></div>
+            <div class="celula1"><input type="text" id="pE8" placeholder="E" onchange="e8()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -288,16 +289,16 @@
 
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pD6" placeholder="D" onchange="d6()"></div>
-            <div class="celula1"><input type="text" id="pA12" placeholder="A" onchange="a12()"></div>
-            <div class="celula1"><input type="text" id="pT3" placeholder="T" onchange="t3()"></div>
-            <div class="celula1"><input type="text" id="pA13" placeholder="A" onchange="a13()"></div>
+            <div class="celula1"><input type="text" id="pD6" placeholder="D" onchange="d6()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA12" placeholder="A" onchange="a12()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pT3" placeholder="T" onchange="t3()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pA13" placeholder="A" onchange="a13()" onkeyup="Txt1()"></div>
             <div class="celula1">-</div>
-            <div class="celula1"><input type="text" id="pB2" placeholder="B" onchange="b2()"></div>
-            <div class="celula1"><input type="text" id="pU6" placeholder="U" onchange="u6()"></div>
-            <div class="celula1"><input type="text" id="pS7" placeholder="S" onchange="s7()"></div>
+            <div class="celula1"><input type="text" id="pB2" placeholder="B" onchange="b2()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pU6" placeholder="U" onchange="u6()" onkeyup="Txt1()"></div>
+            <div class="celula1"><input type="text" id="pS7" placeholder="S" onchange="s7()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pS8" placeholder="S" onchange="s8()"></div>
+            <div class="celula1"><input type="text" id="pS8" placeholder="S" onchange="s8()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -312,7 +313,7 @@
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
-            <div class="celula1"><input type="text" id="pS9" placeholder="S" onchange="s9()"></div>
+            <div class="celula1"><input type="text" id="pS9" placeholder="S" onchange="s9()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -324,7 +325,7 @@
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pC5" placeholder="C" onchange="c5()"></div>
+            <div class="celula1"><input type="text" id="pC5" placeholder="C" onchange="c5()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -342,7 +343,7 @@
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pO6" placeholder="O" onchange="o6()"></div>
+            <div class="celula1"><input type="text" id="pO6" placeholder="O" onchange="o6()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -361,7 +362,7 @@
 
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pR8" placeholder="R" onchange="r8()"></div>
+            <div class="celula1"><input type="text" id="pR8" placeholder="R" onchange="r8()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -379,7 +380,7 @@
             <div class="celula"></div>
         </div>
         <div class="coluna">
-            <div class="celula1"><input type="text" id="pE9" placeholder="E" onchange="e9()"></div>
+            <div class="celula1"><input type="text" id="pE9" placeholder="E" onchange="e9()" onkeyup="Txt1()"></div>
             <div class="celula"></div>
             <div class="celula"></div>
             <div class="celula"></div>
@@ -404,42 +405,39 @@
 
             <ol>
                 <br>
-                <li class="palavra1"> Memória não-volátil da Unidade de Comando Eletrônico (UCE) do sistema de injeção. Tambem conhecida como memoria_________</li> 
+                <li id="palavra1">EPROM</li>
                 <br>
-                <li>É um tipo de memória que permite apenas a leitura, as suas informações são gravadas pelo fabricante uma única vez e após isso não podem ser alteradas ou apagadas, somente acessadas. memoria________</li>
+                <li id="palavra2">ROM</li>
                 <br>
-                <li>Armazena grandes informações, os dados armazenados nas ________ não são perdidos quando 
-                    desligamos o equipamento.</li>
+                <li id="palavra3">MEMORIA-DE-MASSA</li>
                 <br>
-                <li>Linhas de instruções que o processador deverá realizar, tambem conhecida como tarefas________ 
-                </li>
+                <li id="palavra4">THREADS</li>
                 <br>
-                <li>a</li>
+                <li id="palavra6">I5</li>
                 <br>
-                <li>b</li>
+                <li id="palavra7">REGISTRADORES</li>
                 <br>
-                <li>c</li>
+                <li id="palavra8">RAM</li>
                 <br>
-                <li>d</li>
+                <li id="palavra9">FLASH</li>
                 <br>
-                <li>e</li>
+                <li id="palavra10">ULA</li>
                 <br>
-                <li>f</li>
+                <li id="palavra11">I7</li>
                 <br>
-                <li>g</li>
+                <li id="palavra12">DMA</li>
                 <br>
-                <li>h</li>
+                <li id="palavra13">CPU</li>
                 <br>
-                <li>i</li>
+                <li id="palavra14">ADRESS-BUS</li>
                 <br>
-                <li>j</li>
+                <li id="palavra15">CACHE</li>
                 <br>
-                <li>k</li>
+                <li id="palavra16">DUAL-CORE</li>
                 <br>
-                <li>l</li>
+                <li id="palavra17">DATA-BUS</li>
                 <br>
-                <li>m</li>
-                <br> 
+                <li id="palavra18">QUAD-CORE</li>
             </ol>
         </div>
     </div>
@@ -489,11 +487,11 @@
         }
     }
     function m1() {
-        if (pM.value == 'M' || pM.value == 'm') {
-            pM.style.background = '    green';
+        if (pM1.value == 'M' || pM1.value == 'm') {
+            pM1.style.background = '    green';
         } else {
             alert(`Letra incorreta`)
-            pM.style.background = '    red';
+            pM1.style.background = '    red';
         }
     }
     function t1() {
@@ -1163,31 +1161,275 @@
     }
 </script>
 <script>
-    function teste() {
+    function Txt1() {
+
+        // EPROM
+        if (
+            (pE1.value == 'E' || pE1.value == 'e')
+            &&
+            (pP1.value == 'P' || pP1.value == 'p')
+            &&
+            (pR1.value == 'R' || pR1.value == 'r')
+            &&
+            (pO2.value == 'O' || pO2.value == 'o')
+            &&
+            (pM2.value == 'M' || pM2.value == 'm')) {
 
 
-        if ((pE1.value == 'E' || pE1.value == 'e')&& (pP1.value == 'P' || pP1.value == 'p') && (pR1.value == 'R' || pR1.value == 'r') && (pO2.value == 'O' || pO2.value == 'o') && (pM2.value == 'M' || pM2.value == 'm')) {
-            pA10.style.background = 'red';
-            
-            li.style.border = 'red 3px solid';
-            palavra1.style.font = 'oblique';  
-        }else{
-            alert(`ERROOOO`)
+            palavra1.style.color = 'green ';
+
+        }
+        // ROM
+        if (
+            (pR1.value == 'R' || pR1.value == 'r')
+            &&
+            (pO1.value == 'O' || pO1.value == 'o')
+            &&
+            (pM1.value == 'M' || pM1.value == 'm')) {
+
+            palavra2.style.color = 'green ';
+        }
+        // MEMORIA-DE-MASSA
+        if (
+            (pM2.value == 'M' || pM2.value == 'm')
+            &&
+            (pE2.value == 'E' || pE2.value == 'e')
+            &&
+            (pM3.value == 'M' || pM3.value == 'm')
+            &&
+            (pO3.value == 'O' || pO3.value == 'o')
+            &&
+            (pR4.value == 'R' || pR4.value == 'r')
+            &&
+            (pI.value == 'I' || pI.value == 'i')
+            &&
+            (pA4.value == 'A' || pA4.value == 'a')
+            &&
+            (pD1.value == 'D' || pD1.value == 'd')
+            &&
+            (pE3.value == 'E' || pE3.value == 'e')
+            &&
+            (pM4.value == 'M' || pM4.value == 'm')
+            &&
+            (pA5.value == 'A' || pA5.value == 'a')
+            &&
+            (pS1.value == 'S' || pS1.value == 's')
+            &&
+            (pS2.value == 'S' || pS2.value == 's')
+            &&
+            (pA6.value == 'A' || pA6.value == 'a')) {
+
+            palavra3.style.color = 'green ';
+
+        }
+        // THREADS
+        if (
+            (pT1.value == 'T' || pT1.value == 't')
+            &&
+            (pH.value == 'H' || pH.value == 'h')
+            &&
+            (pR4.value == 'R' || pR4.value == 'r')
+            &&
+            (pE4.value == 'E' || pE4.value == 'e')
+            &&
+            (pA7.value == 'A' || pA7.value == 'a')
+            &&
+            (pD2.value == 'D' || pD2.value == 'd')
+            &&
+            (pS4.value == 'S' || pS4.value == 's')) {
+
+            palavra4.style.color = 'green ';
+        }
+        // I5
+        if (
+            (pI.value == 'I' || pI.value == 'i')
+            &&
+            (p5.value == '5')) {
+            palavra6.style.color = 'green ';
+        }
+        // REGISTRADORES
+        if (
+            (pR3.value == 'R' || pR3.value == 'r')
+            &&
+            (pE3.value == 'E' || pE3.value == 'e')
+            &&
+            (pG.value == 'G' || pG.value == 'g')
+            &&
+            (pI2.value == 'I' || pI2.value == 'i')
+            &&
+            (pS3.value == 'S' || pS3.value == 's')
+            &&
+            (pT2.value == 'T' || pT2.value == 't')
+            &&
+            (pR6.value == 'R' || pR6.value == 'r')
+            &&
+            (pA9.value == 'A' || pA9.value == 'a')
+            &&
+            (pD4.value == 'D' || pD4.value == 'd')
+            &&
+            (pO4.value == 'O' || pO4.value == 'o')
+            &&
+            (pR7.value == 'R' || pR7.value == 'r')
+            &&
+            (pE8.value == 'E' || pE8.value == 'e')
+            &&
+            (pS8.value == 'S' || pS8.value == 's')) {
+            palavra7.style.color = 'green ';
+
+        }
+        // RAM
+        if (
+            (pR2.value == 'R' || pR2.value == 'r')
+            &&
+            (pA2.value == 'A' || pA2.value == 'a')
+            &&
+            (pM4.value == 'M' || pM4.value == 'm')) {
+            palavra8.style.color = 'green ';
+        }
+        // FLASH
+        if (
+            (pF1.value == 'F' || pF1.value == 'f')
+            &&
+            (pL1.value == 'L' || pL1.value == 'l')
+            &&
+            (pA3.value == 'A' || pA3.value == 'a')
+            &&
+            (pS2.value == 'S' || pS2.value == 's')
+            &&
+            (pH2.value == 'H' || pH2.value == 'h')) {
+
+            palavra9.style.color = 'green ';
+        }
+        // ULA
+        if (
+            (pU1.value == 'U' || pU1.value == 'u')
+            &&
+            (pL1.value == 'L' || pL1.value == 'l')
+            &&
+            (pA1.value == 'A' || pA1.value == 'a')) {
+            palavra10.style.color = 'green ';
+        }
+        // I7
+        if (
+            (pI2.value == 'I' || pI2.value == 'i')
+            &&
+            (p7.value == '7')) {
+            palavra11.style.color = 'green ';
+        }
+        // DMA
+        if (
+            (pD2.value == 'D' || pD2.value == 'd')
+            &&
+            (pM5.value == 'M' || pM5.value == 'm')
+            &&
+            (pA8.value == 'A' || pA8.value == 'a')) {
+            palavra12.style.color = 'green ';
+        }
+        // CPU
+        if (
+            (pC1.value == 'C' || pC1.value == 'c')
+            &&
+            (pP2.value == 'P' || pP2.value == 'p')
+            &&
+            (pU2.value == 'U' || pU2.value == 'u')
+        ) {
+            palavra13.style.color = 'green ';
+        }
+        // ADRESS-BUS
+        if (
+            (pA8.value == 'A' || pA8.value == 'a')
+            &&
+            (pD3.value == 'D' || pD3.value == 'd')
+            &&
+            (pR5.value == 'R' || pR5.value == 'r')
+            &&
+            (pE5.value == 'E' || pE5.value == 'e')
+            &&
+            (pS5.value == 'S' || pS5.value == 's')
+            &&
+            (pS6.value == 'S' || pS6.value == 's')
+            &&
+            (pB1.value == 'B' || pB1.value == 'b')
+            &&
+            (pU6.value == 'U' || pU6.value == 'u')
+            &&
+            (pS9.value == 'S' || pS9.value == 's')) {
+            palavra14.style.color = 'green ';
+
+        }
+        // CACHE
+        if (
+            (pC2.value == 'C' || pC2.value == 'c')
+            &&
+            (pA9.value == 'A' || pA9.value == 'a')
+            &&
+            (pC3.value == 'C' || pC3.value == 'c')
+            &&
+            (pH3.value == 'H' || pH3.value == 'h')
+            &&
+            (pE6.value == 'E' || pE6.value == 'e')
+        ) {
+            palavra15.style.color = 'green ';
+        }
+        // DUAL-CORE
+        if (
+            (pD5.value == 'D' || pD5.value == 'd')
+            &&
+            (pU5.value == 'U' || pU5.value == 'u')
+            &&
+            (pA10.value == 'A' || pA10.value == 'a')
+            &&
+            (pL2.value == 'L' || pL2.value == 'l')
+            &&
+            (pC4.value == 'C' || pC4.value == 'c')
+            &&
+            (pO5.value == 'O' || pO5.value == 'o')
+            &&
+            (pR7.value == 'R' || pR7.value == 'r')
+            &&
+            (pE7.value == 'E' || pE7.value == 'e')) {
+
+            palavra16.style.color = 'green ';
         }
 
+        // DATA-BUS
+        if (
+            (pD6.value == 'D' || pD6.value == 'd')
+            &&
+            (pA12.value == 'A' || pA12.value == 'a')
+            &&
+            (pT3.value == 'T' || pT3.value == 't')
+            &&
+            (pA13.value == 'A' || pA13.value == 'a')
+            &&
+            (pB2.value == 'B' || pB2.value == 'b')
+            &&
+            (pU6.value == 'U' || pU6.value == 'u')
+            &&
+            (pS7.value == 'S' || pS7.value == 's')
+        ) {
+            palavra17.style.color = 'green ';
 
-        // if ((pR1.value == 'R' || pR1.value == 'r')&& (pO1.value == 'O' || pO1.value == 'o')&& (pM.value == 'M' || pM.value == 'm')) {
-        //     palavra2.style.fontstyle = 'oblique'; 
-            
-        // }
-
-
-
-        
+        }
+        // QUAD-CORES
+        if (
+            (pQ.value == 'Q' || pQ.value == 'q')
+            &&
+            (pU3.value == 'U' || pU3.value == 'u')
+            &&
+            (pA11.value == 'A' || pA11.value == 'a')
+            &&
+            (pD6.value == 'D' || pD6.value == 'd')
+            &&
+            (pC5.value == 'C' || pC5.value == 'c')
+            &&
+            (pO6.value == 'O' || pO6.value == 'o')
+            &&
+            (pR8.value == 'R' || pR8.value == 'r')
+            &&
+            (pE9.value == 'E' || pE9.value == 'e')
+        ) {
+            palavra18.style.color = 'green ';
+        }
     }
-
-
-
-
-
 </script>
