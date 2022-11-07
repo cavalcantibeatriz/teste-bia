@@ -70,7 +70,8 @@ section input {
 
 .sla #quest {
     color: aliceblue;
-    border: red 3px solid;
+    /* border: red 3px solid; */
+    border-radius: 20px;
     width: 83%;
     height: 90%;
     background: rgb(10, 19, 28);
